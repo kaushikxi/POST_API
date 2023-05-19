@@ -1,0 +1,13 @@
+{
+    "version":2,
+    "name":"music",
+    "builds":[
+        {"src":"request.js","use":"@vercel/node"}
+    ],
+    "routes":[
+        {
+            "source":"/(.*)","dest":"/request.js"
+        }
+    ]
+
+}
