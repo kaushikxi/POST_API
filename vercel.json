@@ -1,12 +1,12 @@
 {
     "version":2,
-    "name":"music",
+    "name":"POST_API",
     "builds":[
         {"src":"request.js","use":"@vercel/node"}
     ],
     "routes":[
         {
-            "source":"/(.*)","dest":"/request.js"
+            "src":"/(.*)","dest":"/request.js"
         }
     ]
 
